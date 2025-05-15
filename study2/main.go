@@ -51,9 +51,16 @@ func main() {
 
 	//playWithPointers()
 
-	juan := Employee{name: "Juan", age: 30}
+	//juan := Employee{name: "Juan", age: 30}
 
-	greetings(juan)
+	/* 	greetings(juan)
+	   	genericFunction(10)
+	   	genericFunction(10.5)
+	   	genericFunction("Hello")
+	   	genericFunction(true) */
+	//goroutines()
+	//mainChannels()
+	mainWaitGroups()
 }
 
 func greetings(g Greeter) {
